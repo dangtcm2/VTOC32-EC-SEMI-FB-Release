@@ -1,0 +1,7 @@
+Release note October 08, 2020
+- This version does not change the firmware.
+- The xml (ESI) file has been updated to introducte the FESTO icon.
+- How to update xml file to add new icon:
+convert the icon (ico) file to bitmap format (bmp), make sure the size is 16x14 pixels.
+convert the bitmap file to hex string using any text converter.
+copy the hex string to <ImageData16x14> data in the xml file.
